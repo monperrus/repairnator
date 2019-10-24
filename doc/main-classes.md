@@ -1,4 +1,4 @@
-# Repairnator Command Line Usage
+# Repairnator Main Classes
 
 This page describe the usage of all main classes of Repairnator.
 
