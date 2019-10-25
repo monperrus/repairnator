@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get install -y xmlstarlet
 
 ### MAVEN CENTRAL
-if [ "$TRAVIS_PULL_REQUEST" = "false" ] && [ "$TRAVIS_BRANCH" = "master" ]; then
+if [ "$TRAVIS_PULL_REQUEST" = "false" ] && [ "$TRAVIS_BRANCH" = "deploy" ]; then
     cp .travis/travis-settings.xml $HOME/.m2/settings.xml
     cd repairnator
     
